@@ -87,7 +87,7 @@ export default function Home() {
             </div>
             <div className="grid justify-items-end">
               <h1 className="text-7xl font-extrabold">Thuong To</h1>
-              <p className="text-xl mt-5">ReactJS Frontend TeamLead</p>
+              <p className="text-xl mt-5">ReactJS Team Lead</p>
             </div>
           </div>
         </header>
@@ -98,27 +98,20 @@ export default function Home() {
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">
                 <strong className="mr-1">Phone </strong>
-                <a href="tel:+821023456789" className="block">
-                  +82 10 2345 6789
+                <a href="tel:+84986335807" className="block">
+                  +84 98 633 5807
                 </a>
               </li>
               <li className="px-2 mt-1">
                 <strong className="mr-1">E-mail </strong>
-                <a href="mailto:" className="block">
-                  aspiringfe@helloworld.com
+                <a href="mailto:thuongthanhto@gmail.com" className="block">
+                  thuongthanhto@gmail.com
                 </a>
               </li>
               <li className="px-2 mt-1">
                 <strong className="mr-1">Location</strong>
-                <span className="block">Seoul, South Korea</span>
+                <span className="block">Ho Chi Minh City, Vietnam</span>
               </li>
-            </ul>
-
-            <strong className="text-xl font-medium ">Github Stats</strong>
-            <ul className="flex w-full mt-2 mb-10">
-              <li className="px-2 mt-2 w-4/12 bg-pink-600 text-white text-center rounded-tl-lg rounded-bl-lg">HTML</li>
-              <li className="px-2 mt-2 w-4/12 bg-blue-600 text-white text-center">CSS</li>
-              <li className="px-2 mt-2 w-5/12 bg-yellow-500 text-white text-center rounded-tr-lg rounded-br-lg">JS</li>
             </ul>
 
             <strong className="text-xl font-medium">Skills</strong>
@@ -127,25 +120,35 @@ export default function Home() {
               <li className="px-2 mt-1">CSS</li>
               <li className="px-2 mt-1">JavaScript</li>
               <li className="px-2 mt-1">React</li>
+              <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
               <li className="px-2 mt-1">Node.js</li>
+              <li className="px-2 mt-1">NestJS</li>
+              <li className="px-2 mt-1">ExpressJS</li>
+              <li className="px-2 mt-1">Postgres</li>
+              <li className="px-2 mt-1">MySql</li>
+              <li className="px-2 mt-1">Mongodb</li>
+              <li className="px-2 mt-1">Blockchain</li>
+              <li className="px-2 mt-1">Etherjs</li>
+              <li className="px-2 mt-1">Web3js</li>
+              <li className="px-2 mt-1">AWS</li>
             </ul>
             <strong className="text-xl font-medium">Further Education</strong>
             <ul className="mt-2 mb-10">
-              <li className="px-2 mt-1">Like Lion Frontend School</li>
+              <li className="px-2 mt-1">Medium</li>
               <li className="px-2 mt-1">Udemy</li>
-              <li className="px-2 mt-1">Freecodecamp</li>
+              <li className="px-2 mt-1">Linkedin Learning</li>
             </ul>
 
             <strong className="text-xl font-medium">Currently learning</strong>
             <ul className="mt-2 mb-10">
-              <li className="px-2 mt-1">About Web Accessibility</li>
-              <li className="px-2 mt-1">and User Experience</li>
+              <li className="px-2 mt-1">DevOps and Atrchitech</li>
+              <li className="px-2 mt-1">User Experience</li>
             </ul>
             <strong className="text-xl font-medium">Interests & Hobbies</strong>
             <ul className="mt-2">
               <li className="px-2 mt-1">Sustainability</li>
               <li className="px-2 mt-1">New technologies</li>
-              <li className="px-2 mt-1">Blogging on dev.to</li>
+              <li className="px-2 mt-1">Blog</li>
               <li className="px-2 mt-1">Investment</li>
               <li className="px-2 mt-1">Travel</li>
             </ul>
@@ -154,15 +157,71 @@ export default function Home() {
           <div className="w-4/6">
             <section>
               <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
-              <p className="mt-4 text-xs">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus deserunt modi qui. Dolorum aliquid
-                quasi velit cupiditate officia magnam impedit, sapiente hic, eaque quaerat ullam fugiat reprehenderit
-                voluptates odit! Error. Tempore fuga iusto eveniet omnis impedit repellat ab repellendus nesciunt
-                similique. Iure voluptates, enim nesciunt tempora amet earum, porro rem ad et sequi corrupti neque
-                quidem? Debitis quo quibusdam nemo. Nam doloremque perferendis tempora asperiores, ullam praesentium et,
-                voluptas pariatur illo aliquid similique, fugiat repellendus ipsa necessitatibus minus hic culpa quasi.
-                Sed voluptate itaque accusantium earum cupiditate ipsa neque magnam!
+              <p className="mt-4 text-sm">
+                - I have more than 6 years of experience in ReactJS and Blockchain and work on many technologies. I
+                always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a
+                close team environment. I always apply a positive attitude to every task I undertake.{' '}
               </p>
+              <p className="text-sm">- I know Frontend, Backend, and DevOps</p>
+
+              <p className="text-sm">- I can research new technologies quickly and apply them to new projects.</p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Work Experiences</h2>
+              <ul className="mt-2">
+                <li className="pt-2">
+                  <p className="flex justify-between text-sm">
+                    <strong className="text-base">ReactJS Team Lead at HDBank</strong>10/2021-Now
+                  </p>
+                  <p className="text-justify text-xs">
+                    Development, and implementation of a Fintech Product to enable Vietnam customers to Buy Now, Pay
+                    Later services. Muadee by HDBank, One of the first BNPL products made by the Bank in Vietnam.
+                  </p>
+                  <p className="text-xs">
+                    Develop new features flow UI/UX design, write unit test, review code, build structure source for
+                    team.
+                  </p>
+                </li>
+
+                <li className="pt-2">
+                  <p className="flex justify-between text-sm">
+                    <strong className="text-base">Senior ReactJS Developer at Sendo</strong>03/2019-10/2021
+                  </p>
+                  <p className="text-justify text-xs">
+                    Join a scrum team as member. Develop new features flow UI/UX design, write unit test, review code
+                    for junior member, build structure source for team.
+                  </p>
+                </li>
+                <li className="pt-2">
+                  <p className="flex justify-between text-sm">
+                    <strong className="text-base">Fullstack Develop at FPT Software</strong>03/2017-02/2019
+                  </p>
+                  <p className="text-justify text-xs">
+                    I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
+                    complete front-end of the product.
+                  </p>
+                  <p className="text-xs">My responsibilities include: </p>{' '}
+                  <p className="text-xs">- Making the UI functional using React.JS.</p>
+                  <p className="text-xs">- Collaborate with the Backend Engineers.</p>
+                  <p className="text-xs">- Optimize the application for maximum speed and scalability.</p>
+                  <p className="text-xs">- Build reusable code.</p>
+                </li>
+              </ul>
+            </section>
+
+            <section>
+              <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Education</h2>
+              <ul className="mt-2">
+                <li className="pt-2">
+                  <p className="flex justify-between text-sm">
+                    <strong className="text-base">University of Information Technology</strong>2013-2017
+                  </p>
+                  <p className="flex justify-between text-sm">
+                    Software Engineering<small>GPA 7.8/10</small>
+                  </p>
+                </li>
+              </ul>
             </section>
 
             <section>
@@ -285,64 +344,6 @@ export default function Home() {
                     alias cupiditate assumenda? Nesciunt unde aliquid quam quisquam excepturi deserunt ipsa doloremque
                     culpa itaque. Esse consectetur odit est laboriosam facilis! Accusamus inventore vel magni sed
                     aliquid! Aspernatur dolores, nam id fugit ad aliquam.
-                  </p>
-                </li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Work Experiences</h2>
-              <ul className="mt-2">
-                <li className="pt-2">
-                  <p className="flex justify-between text-sm">
-                    <strong className="text-base">Company Name</strong>2019-2021
-                  </p>
-                  <p className="flex justify-between text-base">
-                    Job title<small>location</small>
-                  </p>
-                  <p className="text-justify text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, expedita exercitationem, cum
-                    quisquam laboriosam voluptas aut libero officiis quae natus laborum explicabo, labore nobis porro ad
-                    et soluta deleniti. Rerum? Voluptatibus id officiis adipisci eligendi provident minima sed. Ullam
-                    aliquid, fuga nisi modi amet quasi, quod veniam eos sit culpa distinctio rem a tempora ad autem
-                    soluta rerum, doloremque quas?
-                  </p>
-                </li>
-                <li className="pt-2">
-                  <p className="flex justify-between text-sm">
-                    <strong className="text-base">Company Name</strong>2014-2019
-                  </p>
-                  <p className="flex justify-between text-base">
-                    Job title<small>location</small>
-                  </p>
-                  <p className="text-justify text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nemo fugiat neque tempore
-                    consectetur nihil alias ullam esse corporis fugit deserunt maxime, numquam eos repellendus, deleniti
-                    quae at fuga repudiandae! Perspiciatis odit nobis sunt! Natus ea reiciendis enim! Itaque possimus
-                    eaque perspiciatis architecto reiciendis laboriosam voluptas corporis unde ducimus quis aliquid,
-                    distinctio dolorum quo ullam a at, fugit veniam optio.
-                  </p>
-                </li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Education</h2>
-              <ul className="mt-2">
-                <li className="pt-2">
-                  <p className="flex justify-between text-sm">
-                    <strong className="text-base">Hello Univerisity</strong>2022-2019
-                  </p>
-                  <p className="flex justify-between text-sm">
-                    Digital marketing<small>GPA 4.0</small>
-                  </p>
-                </li>
-                <li className="pt-2">
-                  <p className="flex justify-between text-sm">
-                    <strong className="text-base">World Univerisity</strong>2022-2019
-                  </p>
-                  <p className="flex justify-between text-sm">
-                    Fashion Design<small>GPA 3.8</small>
                   </p>
                 </li>
               </ul>
