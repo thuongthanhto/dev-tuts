@@ -6,7 +6,7 @@ export default function Home() {
           <ul className="flex flex-wrap justify-end gap-2">
             <li>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/thuongthanhto/"
                 className="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
                 target="_blank"
                 rel="noreferrer"
@@ -25,7 +25,7 @@ export default function Home() {
             </li>
             <li>
               <a
-                href="https://github.com/"
+                href="https://github.com/thuongthanhto"
                 className="bg-gray-700 p-2 font-medium text-white inline-flex items-center space-x-2 rounded"
                 target="_blank"
                 rel="noreferrer"
@@ -44,34 +44,6 @@ export default function Home() {
                       fillRule="evenodd"
                       clipRule="evenodd"
                       d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385c.6.105.825-.255.825-.57c0-.285-.015-1.23-.015-2.235c-3.015.555-3.795-.735-4.035-1.41c-.135-.345-.72-1.41-1.23-1.695c-.42-.225-1.02-.78-.015-.795c.945-.015 1.62.87 1.845 1.23c1.08 1.815 2.805 1.305 3.495.99c.105-.78.42-1.305.765-1.605c-2.67-.3-5.46-1.335-5.46-5.925c0-1.305.465-2.385 1.23-3.225c-.12-.3-.54-1.53.12-3.18c0 0 1.005-.315 3.3 1.23c.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23c.66 1.65.24 2.88.12 3.18c.765.84 1.23 1.905 1.23 3.225c0 4.605-2.805 5.625-5.475 5.925c.435.375.81 1.095.81 2.22c0 1.605-.015 2.895-.015 3.3c0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"
-                      fill="currentColor"
-                    />
-                  </g>
-                </svg>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://dev.to/"
-                className="bg-black p-2 font-medium text-white inline-flex items-center space-x-2 rounded"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <svg
-                  className="w-5 h-5"
-                  role="img"
-                  aria-hidden="true"
-                  preserveAspectRatio="xMidYMid meet"
-                  viewBox="0 32 447.99999999999994 448"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="2500"
-                  height="2321"
-                >
-                  <g fill="none">
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35s5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z"
                       fill="currentColor"
                     />
                   </g>
@@ -118,18 +90,12 @@ export default function Home() {
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">HTML</li>
               <li className="px-2 mt-1">CSS</li>
-              <li className="px-2 mt-1">JavaScript</li>
-              <li className="px-2 mt-1">React</li>
+              <li className="px-2 mt-1">JavaScript, ES5, ES6</li>
+              <li className="px-2 mt-1">React, NextJS</li>
               <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
-              <li className="px-2 mt-1">Node.js</li>
-              <li className="px-2 mt-1">NestJS</li>
-              <li className="px-2 mt-1">ExpressJS</li>
-              <li className="px-2 mt-1">Postgres</li>
-              <li className="px-2 mt-1">MySql</li>
-              <li className="px-2 mt-1">Mongodb</li>
-              <li className="px-2 mt-1">Blockchain</li>
-              <li className="px-2 mt-1">Etherjs</li>
-              <li className="px-2 mt-1">Web3js</li>
+              <li className="px-2 mt-1">Node.js, NestJS, Graphql, ExpressJS</li>
+              <li className="px-2 mt-1">Postgres, MySql, Mongodb</li>
+              <li className="px-2 mt-1">Blockchain, Etherjs, Web3js</li>
               <li className="px-2 mt-1">AWS</li>
             </ul>
             <strong className="text-xl font-medium">Further Education</strong>
@@ -158,9 +124,9 @@ export default function Home() {
             <section>
               <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
               <p className="mt-4 text-sm">
-                - I have more than 6 years of experience in ReactJS and Blockchain and work on many technologies. I
-                always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a
-                close team environment. I always apply a positive attitude to every task I undertake.{' '}
+                - I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many
+                technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am
+                happy to work in a close team environment. I always apply a positive attitude to every task I undertake.{' '}
               </p>
               <p className="text-sm">- I know Frontend, Backend, and DevOps</p>
 
@@ -174,11 +140,11 @@ export default function Home() {
                   <p className="flex justify-between text-sm">
                     <strong className="text-base">ReactJS Team Lead at HDBank</strong>10/2021-Now
                   </p>
-                  <p className="text-justify text-xs">
+                  <p className="text-justify text-sm">
                     Development, and implementation of a Fintech Product to enable Vietnam customers to Buy Now, Pay
                     Later services. Muadee by HDBank, One of the first BNPL products made by the Bank in Vietnam.
                   </p>
-                  <p className="text-xs">
+                  <p className="text-sm">
                     Develop new features flow UI/UX design, write unit test, review code, build structure source for
                     team.
                   </p>
@@ -188,7 +154,7 @@ export default function Home() {
                   <p className="flex justify-between text-sm">
                     <strong className="text-base">Senior ReactJS Developer at Sendo</strong>03/2019-10/2021
                   </p>
-                  <p className="text-justify text-xs">
+                  <p className="text-justify text-sm">
                     Join a scrum team as member. Develop new features flow UI/UX design, write unit test, review code
                     for junior member, build structure source for team.
                   </p>
@@ -197,15 +163,15 @@ export default function Home() {
                   <p className="flex justify-between text-sm">
                     <strong className="text-base">Fullstack Develop at FPT Software</strong>03/2017-02/2019
                   </p>
-                  <p className="text-justify text-xs">
+                  <p className="text-justify text-sm">
                     I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
                     complete front-end of the product.
                   </p>
-                  <p className="text-xs">My responsibilities include: </p>{' '}
-                  <p className="text-xs">- Making the UI functional using React.JS.</p>
-                  <p className="text-xs">- Collaborate with the Backend Engineers.</p>
-                  <p className="text-xs">- Optimize the application for maximum speed and scalability.</p>
-                  <p className="text-xs">- Build reusable code.</p>
+                  <p className="text-sm">My responsibilities include: </p>{' '}
+                  <p className="text-sm">- Making the UI functional using React.JS.</p>
+                  <p className="text-sm">- Collaborate with the Backend Engineers.</p>
+                  <p className="text-sm">- Optimize the application for maximum speed and scalability.</p>
+                  <p className="text-sm">- Build reusable code.</p>
                 </li>
               </ul>
             </section>
@@ -230,120 +196,132 @@ export default function Home() {
               <ul className="mt-1">
                 <li className="py-2">
                   <div className="flex justify-between my-1">
-                    <strong>Rules of 10000 hours</strong>
+                    <strong>Sendo</strong>
                     <p className="flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
                     </p>
                   </div>
                   <ul className="flex mb-2">
                     <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Live
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Code
+                      <a
+                        href="https://www.sendo.vn/tien-ich"
+                        target="_blank"
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                      >
+                        https://www.sendo.vn/tien-ich{' '}
                       </a>
                     </li>
                   </ul>
-                  <p className="text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus labore enim in minus quod
-                    vero dignissimos et, ratione obcaecati quis maiores? Voluptatem, natus cupiditate perferendis omnis
-                    ex hic incidunt! Earum dolore cupiditate sed et maxime distinctio iure fugiat aspernatur at veniam
-                    laudantium eveniet corporis dicta reiciendis quod consequatur, labore perferendis dolorum velit
-                    quibusdam minus iste dolorem! Officiis, obcaecati maxime
+                  <p className="text-sm">
+                    Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards quickly
+                    at Sendo.vn ✅ Convenient payment ✅ Safe ✅ Secure by bank account, credit card or Senpay e-wallet{' '}
                   </p>
                 </li>
                 <li className="py-2">
                   <div className="flex justify-between my-1">
-                    <strong>Vending Machine</strong>
+                    <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
                     <p className="flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
                     </p>
                   </div>
                   <ul className="flex mb-2">
                     <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Live
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Code
+                      <a
+                        href="https://muadee.com.vn/"
+                        target="_blank"
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                      >
+                        https://muadee.com.vn/
                       </a>
                     </li>
                   </ul>
-                  <p className="text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita illum optio porro suscipit
-                    rerum labore veritatis autem eum totam veniam repudiandae repellendus perspiciatis eligendi sequi
-                    maiores, cum ipsa ut! Dolorum aliquid quaerat, dolore nemo, vero alias non porro quam totam impedit
-                    repellat voluptas, nobis harum quae dolorem accusantium consequatur. Recusandae cupiditate possimus
-                    natus consequuntur aliquid, molestias provident saepe nobis.
+                  <p className="text-sm">
+                    Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
+                    the first "Make in Bank" application in Vietnam.
                   </p>
                 </li>
                 <li className="py-2">
                   <div className="flex justify-between my-1">
-                    <strong>Landing Page</strong>
+                    <strong>PlayDapp</strong>
                     <p className="flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">React</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Node.js</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
                     </p>
                   </div>
                   <ul className="flex mb-2">
                     <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Live
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Code
+                      <a
+                        href="https://playdapp.com/"
+                        target="_blank"
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                      >
+                        https://playdapp.com/
                       </a>
                     </li>
                   </ul>
-                  <p className="text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, odio autem non possimus adipisci,
-                    sed sequi culpa ipsa necessitatibus repellat rerum. Obcaecati nobis modi voluptate nam minus
-                    praesentium soluta voluptatibus! Minima temporibus deserunt laborum, expedita ad molestiae
-                    perferendis? Ipsa aut, necessitatibus expedita rem iure minus sit voluptates magni, sequi eum
-                    architecto excepturi tempora dolorum soluta quam odit amet nobis incidunt.
-                  </p>
+                  <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
                 </li>
+
                 <li className="py-2">
                   <div className="flex justify-between my-1">
-                    <strong>Gamgyul Market</strong>
+                    <strong>Fantasy NFT</strong>
                     <p className="flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">HTML</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">CSS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">React</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded">Node.js</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
                     </p>
                   </div>
                   <ul className="flex mb-2">
                     <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Live
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        Code
+                      <a
+                        href="https://fantasynft.org/"
+                        target="_blank"
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                      >
+                        https://playdapp.com/
                       </a>
                     </li>
                   </ul>
-                  <p className="text-xs">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus suscipit soluta at doloremque ipsa
-                    unde, doloribus beatae delectus odio dolorum consequatur libero esse ratione nostrum nihil quaerat
-                    alias cupiditate assumenda? Nesciunt unde aliquid quam quisquam excepturi deserunt ipsa doloremque
-                    culpa itaque. Esse consectetur odit est laboriosam facilis! Accusamus inventore vel magni sed
-                    aliquid! Aspernatur dolores, nam id fugit ad aliquam.
+                  <p className="text-sm">
+                    Fantasy NFT – Create, sell or collect digital items secured with #blockchain
+                  </p>
+                </li>
+
+                <li className="py-2">
+                  <div className="flex justify-between my-1">
+                    <strong>Real Realm</strong>
+                    <p className="flex">
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    </p>
+                  </div>
+                  <ul className="flex mb-2">
+                    <li>
+                      <a href="https://realrealm.io" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
+                        https://realrealm.io{' '}
+                      </a>
+                    </li>
+                  </ul>
+                  <p className="text-sm">
+                    Real Realm is a war strategy game with millions users. Acknowledging the enormous potential in the
+                    world of blockchain, Real Realm is now integrated and enhanced, aiming to be an innovative
+                    blockchain-based game that naturally applies Free-to-play and Play-to-enjoy mechanisms by unique
+                    algorithms.
                   </p>
                 </li>
               </ul>
@@ -352,7 +330,7 @@ export default function Home() {
         </main>
 
         <footer className="mt-6">
-          <p className="bg-gray-600 text-white text-center text-xs pt-2">
+          <p className="bg-gray-600 text-white text-center text-sm pt-2">
             The best way to predict the future is to create it. <small>- AbrahamLincoln</small>
           </p>
           <p className="bg-gray-600 text-white text-center text-sm pb-2">
