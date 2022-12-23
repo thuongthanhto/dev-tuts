@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
     <div className="container mx-auto flex justify-center content-center">
@@ -126,7 +127,7 @@ export default function Home() {
               <p className="mt-4 text-sm">
                 - I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many
                 technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am
-                happy to work in a close team environment. I always apply a positive attitude to every task I undertake.{' '}
+                happy to work in a close team environment. I always apply a positive attitude to every task I undertake.
               </p>
               <p className="text-sm">- I know Frontend, Backend, and DevOps</p>
 
@@ -164,10 +165,11 @@ export default function Home() {
                     <strong className="text-base">Fullstack Develop at FPT Software</strong>03/2017-02/2019
                   </p>
                   <p className="text-justify text-sm">
-                    I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
+                    {`I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
                     complete front-end of the product.
+                  `}
                   </p>
-                  <p className="text-sm">My responsibilities include: </p>{' '}
+                  <p className="text-sm">My responsibilities include: </p>
                   <p className="text-sm">- Making the UI functional using React.JS.</p>
                   <p className="text-sm">- Collaborate with the Backend Engineers.</p>
                   <p className="text-sm">- Optimize the application for maximum speed and scalability.</p>
@@ -209,14 +211,15 @@ export default function Home() {
                         href="https://www.sendo.vn/tien-ich"
                         target="_blank"
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        rel="noreferrer"
                       >
-                        https://www.sendo.vn/tien-ich{' '}
+                        https://www.sendo.vn/tien-ich
                       </a>
                     </li>
                   </ul>
                   <p className="text-sm">
                     Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards quickly
-                    at Sendo.vn ✅ Convenient payment ✅ Safe ✅ Secure by bank account, credit card or Senpay e-wallet{' '}
+                    at Sendo.vn ✅ Convenient payment ✅ Safe ✅ Secure by bank account, credit card or Senpay e-wallet
                   </p>
                 </li>
                 <li className="py-2">
@@ -234,6 +237,7 @@ export default function Home() {
                         href="https://muadee.com.vn/"
                         target="_blank"
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        rel="noreferrer"
                       >
                         https://muadee.com.vn/
                       </a>
@@ -262,6 +266,7 @@ export default function Home() {
                         href="https://playdapp.com/"
                         target="_blank"
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        rel="noreferrer"
                       >
                         https://playdapp.com/
                       </a>
@@ -288,6 +293,7 @@ export default function Home() {
                         href="https://fantasynft.org/"
                         target="_blank"
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        rel="noreferrer"
                       >
                         https://playdapp.com/
                       </a>
@@ -313,7 +319,7 @@ export default function Home() {
                   <ul className="flex mb-2">
                     <li>
                       <a href="https://realrealm.io" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        https://realrealm.io{' '}
+                        https://realrealm.io
                       </a>
                     </li>
                   </ul>
