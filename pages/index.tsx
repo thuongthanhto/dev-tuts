@@ -138,12 +138,12 @@ export default function Home() {
               <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Work Experiences</h2>
               <ul className="mt-2">
                 <li className="pt-2">
-                  <p className="flex justify-between items-center text-sm">
+                  <div className="flex justify-between items-center text-sm">
                     <div>
                       <strong className="text-base">ReactJS Team Lead at HDBank</strong>
                     </div>
                     <div>10/2021-Now</div>
-                  </p>
+                  </div>
                   <p className="text-justify text-sm">
                     Development, and implementation of a Fintech Product to enable Vietnam customers to Buy Now, Pay
                     Later services. Muadee by HDBank, One of the first BNPL products made by the Bank in Vietnam.
