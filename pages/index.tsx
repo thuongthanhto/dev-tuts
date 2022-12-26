@@ -1,8 +1,8 @@
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className="container mx-auto flex justify-center content-center">
-      <div className="border border-gray-300 rounded-sm shadow-lg py-10 px-10 w-4/5 mt-10 mb-10">
+    <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
+      <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
         <header>
           <ul className="flex flex-wrap justify-end gap-2">
             <li>
@@ -59,15 +59,15 @@ export default function Home() {
                     </div> */}
             </div>
             <div className="grid justify-items-end">
-              <h1 className="text-7xl font-extrabold">Thuong To</h1>
-              <p className="text-xl mt-5">ReactJS Team Lead</p>
+              <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
+              <p className="text-xl mt-1 md:mt-5">ReactJS Team Lead</p>
             </div>
           </div>
         </header>
 
-        <main className="flex gap-x-10 mt-10">
-          <div className="w-2/6">
-            <strong className="text-xl font-medium">Contact Details</strong>
+        <main className="flex flex-col-reverse md:flex-row gap-x-10 mt-10">
+          <div className="md:w-2/6 mt-6 md:mt-0 flex flex-col">
+            <strong className="text-xl font-semibold border-b md:border-none">Contact Details</strong>
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">
                 <strong className="mr-1">Phone </strong>
@@ -87,7 +87,7 @@ export default function Home() {
               </li>
             </ul>
 
-            <strong className="text-xl font-medium">Skills</strong>
+            <strong className="text-xl font-semibold border-b md:border-none">Skills</strong>
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">HTML</li>
               <li className="px-2 mt-1">CSS</li>
@@ -99,19 +99,19 @@ export default function Home() {
               <li className="px-2 mt-1">Blockchain, Etherjs, Web3js</li>
               <li className="px-2 mt-1">AWS</li>
             </ul>
-            <strong className="text-xl font-medium">Further Education</strong>
+            <strong className="text-xl font-semibold border-b md:border-none">Further Education</strong>
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">Medium</li>
               <li className="px-2 mt-1">Udemy</li>
               <li className="px-2 mt-1">Linkedin Learning</li>
             </ul>
 
-            <strong className="text-xl font-medium">Currently learning</strong>
+            <strong className="text-xl font-semibold border-b md:border-none">Currently learning</strong>
             <ul className="mt-2 mb-10">
               <li className="px-2 mt-1">DevOps and Atrchitech</li>
               <li className="px-2 mt-1">User Experience</li>
             </ul>
-            <strong className="text-xl font-medium">Interests & Hobbies</strong>
+            <strong className="text-xl font-semibold border-b md:border-none">Interests & Hobbies</strong>
             <ul className="mt-2">
               <li className="px-2 mt-1">Sustainability</li>
               <li className="px-2 mt-1">New technologies</li>
@@ -121,7 +121,7 @@ export default function Home() {
             </ul>
           </div>
 
-          <div className="w-4/6">
+          <div className="w-full md:w-4/6">
             <section>
               <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
               <p className="mt-4 text-sm">
@@ -138,8 +138,11 @@ export default function Home() {
               <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Work Experiences</h2>
               <ul className="mt-2">
                 <li className="pt-2">
-                  <p className="flex justify-between text-sm">
-                    <strong className="text-base">ReactJS Team Lead at HDBank</strong>10/2021-Now
+                  <p className="flex justify-between items-center text-sm">
+                    <div>
+                      <strong className="text-base">ReactJS Team Lead at HDBank</strong>
+                    </div>
+                    <div>10/2021-Now</div>
                   </p>
                   <p className="text-justify text-sm">
                     Development, and implementation of a Fintech Product to enable Vietnam customers to Buy Now, Pay
@@ -199,7 +202,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Sendo</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
@@ -225,7 +228,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
@@ -251,7 +254,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>PlayDapp</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
@@ -278,7 +281,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Fantasy NFT</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
@@ -307,7 +310,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Fantasy Lottery</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
@@ -334,7 +337,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Real Realm</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
@@ -361,7 +364,7 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>F2 NFT</strong>
-                    <p className="flex">
+                    <p className="hidden md:flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
