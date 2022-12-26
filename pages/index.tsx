@@ -306,6 +306,33 @@ export default function Home() {
 
                 <li className="py-2">
                   <div className="flex justify-between my-1">
+                    <strong>Fantasy Lottery</strong>
+                    <p className="flex">
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    </p>
+                  </div>
+                  <ul className="flex mb-2">
+                    <li>
+                      <a
+                        href="https://fantasynft.org/"
+                        target="_blank"
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        rel="noreferrer"
+                      >
+                        https://fantasylotterygame.com/
+                      </a>
+                    </li>
+                  </ul>
+                  <p className="text-sm">Buy ticket and waiting for win in multiple chain </p>
+                </li>
+
+                <li className="py-2">
+                  <div className="flex justify-between my-1">
                     <strong>Real Realm</strong>
                     <p className="flex">
                       <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
@@ -329,6 +356,32 @@ export default function Home() {
                     blockchain-based game that naturally applies Free-to-play and Play-to-enjoy mechanisms by unique
                     algorithms.
                   </p>
+                </li>
+
+                <li className="py-2">
+                  <div className="flex justify-between my-1">
+                    <strong>F2 NFT</strong>
+                    <p className="flex">
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    </p>
+                  </div>
+                  <ul className="flex mb-2">
+                    <li>
+                      <a
+                        href="https://app.f2nft.games "
+                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                      >
+                        https://app.f2nft.games
+                      </a>
+                    </li>
+                  </ul>
+                  <p className="text-sm">F2 NFT is a game NFT with F2C token and Stake feature. </p>
                 </li>
               </ul>
             </section>
