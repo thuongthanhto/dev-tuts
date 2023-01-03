@@ -1,9 +1,7 @@
-import Link from 'next/link'
-
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
+    <div className="mx-auto flex flex-col md:flex-row md:justify-center">
       <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
         <header>
           <ul className="flex flex-wrap justify-end gap-2">
@@ -59,7 +57,6 @@ export default function Home() {
               {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
                         style="background-image: url(../bootstrap/dog.jpg)">
                     </div> */}
-              <Link href="/cv.pdf">Download PDF</Link>
             </div>
             <div className="grid justify-items-end">
               <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
