@@ -1,7 +1,9 @@
+import Link from 'next/link'
+
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className="mx-auto flex flex-col md:flex-row md:justify-center">
+    <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
       <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
         <header>
           <ul className="flex flex-wrap justify-end gap-2">
@@ -57,6 +59,9 @@ export default function Home() {
               {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
                         style="background-image: url(../bootstrap/dog.jpg)">
                     </div> */}
+              <Link href="/cv.pdf" className="text-blue-700">
+                Download PDF
+              </Link>
             </div>
             <div className="grid justify-items-end">
               <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
@@ -202,50 +207,63 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Sendo</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
-                    </p>
+
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://www.sendo.vn/tien-ich"
+                          target="_blank"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          rel="noreferrer"
+                        >
+                          https://www.sendo.vn/tien-ich
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://www.sendo.vn/tien-ich"
-                        target="_blank"
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        rel="noreferrer"
-                      >
-                        https://www.sendo.vn/tien-ich
-                      </a>
-                    </li>
-                  </ul>
-                  <p className="text-sm">
-                    Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards quickly
-                    at Sendo.vn ✅ Convenient payment ✅ Safe ✅ Secure by bank account, credit card or Senpay e-wallet
+
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
                   </p>
+
+                  <div className="text-sm">
+                    <ul>
+                      <li>
+                        - Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards
+                        quickly at Sendo.vn
+                      </li>
+                      <li>- Convenient payment</li>
+                      <li>- Safe</li>
+                      <li>- Secure by bank account</li>
+                      <li>- Credit card or Senpay e-wallet</li>
+                    </ul>
+                  </div>
                 </li>
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    </p>
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://muadee.com.vn/"
+                          target="_blank"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          rel="noreferrer"
+                        >
+                          https://muadee.com.vn
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://muadee.com.vn/"
-                        target="_blank"
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        rel="noreferrer"
-                      >
-                        https://muadee.com.vn/
-                      </a>
-                    </li>
-                  </ul>
+
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                  </p>
+
                   <p className="text-sm">
                     Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
                     the first "Make in Bank" application in Vietnam.
@@ -254,54 +272,56 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>PlayDapp</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                    </p>
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://playdapp.com/"
+                          target="_blank"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          rel="noreferrer"
+                        >
+                          https://playdapp.com
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://playdapp.com/"
-                        target="_blank"
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        rel="noreferrer"
-                      >
-                        https://playdapp.com/
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                  </p>
+
                   <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
                 </li>
 
                 <li className="py-2">
                   <div className="flex justify-between my-1">
-                    <strong>Fantasy NFT</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                    </p>
+                    <strong>Fantasy NFT</strong>{' '}
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://fantasynft.org/"
+                          target="_blank"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          rel="noreferrer"
+                        >
+                          https://fantasynft.org
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://fantasynft.org/"
-                        target="_blank"
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        rel="noreferrer"
-                      >
-                        https://playdapp.com/
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                  </p>
+
                   <p className="text-sm">
                     Fantasy NFT – Create, sell or collect digital items secured with #blockchain
                   </p>
@@ -310,49 +330,54 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Fantasy Lottery</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                    </p>
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://fantasynft.org/"
+                          target="_blank"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          rel="noreferrer"
+                        >
+                          https://fantasylotterygame.com
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://fantasynft.org/"
-                        target="_blank"
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        rel="noreferrer"
-                      >
-                        https://fantasylotterygame.com/
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                  </p>
+
                   <p className="text-sm">Buy ticket and waiting for win in multiple chain </p>
                 </li>
 
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>Real Realm</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                    </p>
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://realrealm.io"
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        >
+                          https://realrealm.io
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a href="https://realrealm.io" className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded">
-                        https://realrealm.io
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                  </p>
+
                   <p className="text-sm">
                     Real Realm is a war strategy game with millions users. Acknowledging the enormous potential in the
                     world of blockchain, Real Realm is now integrated and enhanced, aiming to be an innovative
@@ -364,26 +389,27 @@ export default function Home() {
                 <li className="py-2">
                   <div className="flex justify-between my-1">
                     <strong>F2 NFT</strong>
-                    <p className="hidden md:flex">
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                      <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                    </p>
+                    <ul className="flex">
+                      <li>
+                        <a
+                          href="https://app.f2nft.games "
+                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                        >
+                          https://app.f2nft.games
+                        </a>
+                      </li>
+                    </ul>
                   </div>
-                  <ul className="flex mb-2">
-                    <li>
-                      <a
-                        href="https://app.f2nft.games "
-                        className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                      >
-                        https://app.f2nft.games
-                      </a>
-                    </li>
-                  </ul>
+                  <p className="mb-2">
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                  </p>
+
                   <p className="text-sm">F2 NFT is a game NFT with F2C token and Stake feature. </p>
                 </li>
               </ul>

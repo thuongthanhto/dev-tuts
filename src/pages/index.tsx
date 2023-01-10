@@ -59,7 +59,9 @@ export default function Home() {
               {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
                         style="background-image: url(../bootstrap/dog.jpg)">
                     </div> */}
-              <Link href="/cv.pdf">Download PDF</Link>
+              <Link href="/cv.pdf" className="text-blue-700">
+                Download PDF
+              </Link>
             </div>
             <div className="grid justify-items-end">
               <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
@@ -223,10 +225,18 @@ export default function Home() {
                       </a>
                     </li>
                   </ul>
-                  <p className="text-sm">
-                    Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards quickly
-                    at Sendo.vn ✅ Convenient payment ✅ Safe ✅ Secure by bank account, credit card or Senpay e-wallet
-                  </p>
+                  <div className="text-sm">
+                    <ul>
+                      <li>
+                        - Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards
+                        quickly at Sendo.vn
+                      </li>
+                      <li>- Convenient payment</li>
+                      <li>- Safe</li>
+                      <li>- Secure by bank account</li>
+                      <li>- Credit card or Senpay e-wallet</li>
+                    </ul>
+                  </div>
                 </li>
                 <li className="py-2">
                   <div className="flex justify-between my-1">
@@ -245,7 +255,7 @@ export default function Home() {
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                         rel="noreferrer"
                       >
-                        https://muadee.com.vn/
+                        https://muadee.com.vn
                       </a>
                     </li>
                   </ul>
@@ -274,7 +284,7 @@ export default function Home() {
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                         rel="noreferrer"
                       >
-                        https://playdapp.com/
+                        https://playdapp.com
                       </a>
                     </li>
                   </ul>
@@ -301,7 +311,7 @@ export default function Home() {
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                         rel="noreferrer"
                       >
-                        https://playdapp.com/
+                        https://fantasynft.org
                       </a>
                     </li>
                   </ul>
@@ -330,7 +340,7 @@ export default function Home() {
                         className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
                         rel="noreferrer"
                       >
-                        https://fantasylotterygame.com/
+                        https://fantasylotterygame.com
                       </a>
                     </li>
                   </ul>
