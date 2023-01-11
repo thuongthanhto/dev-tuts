@@ -9,7 +9,22 @@ export default function Home() {
         title="Thuong To - ReactJS TeamLead"
         titleTemplate="Thuong To - ReactJS TeamLead"
         defaultTitle="Thuong To - ReactJS TeamLead"
-        description="A full stack web developer, who loves to design and develop beautiful websites. I have been coding for over a year now. One of my hobbies is writing, I love to document my journey by writing blog posts and also teach others through them."
+        description="I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a close team environment. I always apply a positive attitude to every task I undertake."
+        canonical="https://thuongthanhto.com/"
+        openGraph={{
+          url: 'https://thuongthanhto.com/',
+          title: 'Thuong To - ReactJS TeamLead',
+          description:
+            'I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a close team environment. I always apply a positive attitude to every task I undertake.',
+          images: [
+            {
+              url: '/og-image.jpg',
+              width: 800,
+              height: 420,
+              alt: 'Thuong To - ReactJS TeamLead',
+            },
+          ],
+        }}
       />
       <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
         <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
