@@ -3,14 +3,14 @@ import Link from 'next/link'
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
   return (
-    <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
+    <div className="mx-auto flex flex-col md:flex-row md:justify-center">
       <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
         <header>
           <ul className="flex flex-wrap justify-end gap-2">
             <li>
               <a
                 href="https://www.linkedin.com/in/thuongthanhto/"
-                className="bg-blue-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded"
+                className="bg-blue-600 p-2 font-semibold text-black inline-flex items-center space-x-2 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -29,7 +29,7 @@ export default function Home() {
             <li>
               <a
                 href="https://github.com/thuongthanhto"
-                className="bg-gray-700 p-2 font-medium text-white inline-flex items-center space-x-2 rounded"
+                className="bg-gray-700 p-2 font-medium text-black inline-flex items-center space-x-2 rounded"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -59,9 +59,6 @@ export default function Home() {
               {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
                         style="background-image: url(../bootstrap/dog.jpg)">
                     </div> */}
-              <Link href="/cv.pdf" className="text-blue-700">
-                Download PDF
-              </Link>
             </div>
             <div className="grid justify-items-end">
               <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
@@ -213,7 +210,7 @@ export default function Home() {
                         <a
                           href="https://www.sendo.vn/tien-ich"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                           rel="noreferrer"
                         >
                           https://www.sendo.vn/tien-ich
@@ -223,9 +220,10 @@ export default function Home() {
                   </div>
 
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Jenkin</span>
                   </p>
 
                   <div className="text-sm">
@@ -249,7 +247,7 @@ export default function Home() {
                         <a
                           href="https://muadee.com.vn/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                           rel="noreferrer"
                         >
                           https://muadee.com.vn
@@ -259,9 +257,10 @@ export default function Home() {
                   </div>
 
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">React,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS</span>
                   </p>
 
                   <p className="text-sm">
@@ -277,7 +276,7 @@ export default function Home() {
                         <a
                           href="https://playdapp.com/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                           rel="noreferrer"
                         >
                           https://playdapp.com
@@ -286,12 +285,13 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">EtherJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Web3JS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
                   <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
@@ -305,7 +305,7 @@ export default function Home() {
                         <a
                           href="https://fantasynft.org/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                           rel="noreferrer"
                         >
                           https://fantasynft.org
@@ -314,12 +314,13 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">EtherJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Web3JS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
                   <p className="text-sm">
@@ -335,7 +336,7 @@ export default function Home() {
                         <a
                           href="https://fantasynft.org/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                           rel="noreferrer"
                         >
                           https://fantasylotterygame.com
@@ -344,12 +345,13 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">EtherJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Web3JS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
                   <p className="text-sm">Buy ticket and waiting for win in multiple chain </p>
@@ -362,7 +364,7 @@ export default function Home() {
                       <li>
                         <a
                           href="https://realrealm.io"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                         >
                           https://realrealm.io
                         </a>
@@ -370,12 +372,13 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">EtherJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Web3JS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
                   <p className="text-sm">
@@ -393,7 +396,7 @@ export default function Home() {
                       <li>
                         <a
                           href="https://app.f2nft.games "
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="bg-blue-600 text-black px-2 py-1 mr-1 text-sm rounded"
                         >
                           https://app.f2nft.games
                         </a>
@@ -401,13 +404,14 @@ export default function Home() {
                     </ul>
                   </div>
                   <p className="mb-2">
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                    <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded font-bold">Tech Stacks:</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">ReactJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">NextJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">EtherJS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Web3JS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Redux Tookit,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">AWS,</span>
+                    <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
                   <p className="text-sm">F2 NFT is a game NFT with F2C token and Stake feature. </p>
@@ -416,15 +420,6 @@ export default function Home() {
             </section>
           </div>
         </main>
-
-        <footer className="mt-6">
-          <p className="bg-gray-600 text-white text-center text-sm pt-2">
-            The best way to predict the future is to create it. <small>- AbrahamLincoln</small>
-          </p>
-          <p className="bg-gray-600 text-white text-center text-sm pb-2">
-            I am creating my future by learning new things and making small progresses everyday.
-          </p>
-        </footer>
       </div>
     </div>
   )
