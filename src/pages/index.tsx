@@ -93,7 +93,7 @@ export default function Home() {
             </div>
           </header>
 
-          <main className="flex flex-col-reverse md:flex-row gap-x-10 mt-10">
+          <main className="flex flex-col md:flex-row gap-x-10 mt-10">
             <div className="w-full md:w-4/6">
               <section>
                 <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
@@ -384,7 +384,7 @@ export default function Home() {
               </section>
             </div>
 
-            <div className="md:w-2/6 mt-6 md:mt-0 flex flex-col bg-[#0f2642] text-white px-3 py-4 rounded-md">
+            <div className="md:w-2/6 mt-6 md:mt-0 flex flex-col md:bg-[#0f2642] md:text-white md:px-3 md:py-4 md:rounded-md">
               <strong className="text-xl font-semibold border-b md:border-none">Contact Details</strong>
               <ul className="mt-2 mb-10">
                 <li className="px-2 mt-1">
