@@ -27,7 +27,7 @@ export default function Home() {
         }}
       />
       <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
-        <div className="border border-gray-300 shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10 bg-[#F0F0F0] rounded-md">
+        <div className="border border-gray-300 shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10 bg-[#F7FAF7] rounded-md">
           <header>
             <ul className="flex flex-wrap justify-end gap-2">
               <li>
@@ -207,9 +207,9 @@ export default function Home() {
                     <div className="flex justify-between my-1">
                       <strong>Sendo</strong>
                       <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Jenkin</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Jenkin</span>
                       </p>
                     </div>
                     <ul className="flex mb-2">
@@ -217,7 +217,7 @@ export default function Home() {
                         <a
                           href="https://www.sendo.vn/tien-ich"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="text-[#108a00] font-medium py-1 mr-1 rounded"
                           rel="noreferrer"
                         >
                           https://www.sendo.vn/tien-ich
@@ -241,9 +241,9 @@ export default function Home() {
                     <div className="flex justify-between my-1">
                       <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
                       <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">React</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">React</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
                       </p>
                     </div>
                     <ul className="flex mb-2">
@@ -251,7 +251,7 @@ export default function Home() {
                         <a
                           href="https://muadee.com.vn/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="text-[#108a00] font-medium py-1 mr-1 rounded"
                           rel="noreferrer"
                         >
                           https://muadee.com.vn
@@ -267,12 +267,12 @@ export default function Home() {
                     <div className="flex justify-between my-1">
                       <strong>PlayDapp</strong>
                       <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">EtherJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Web3JS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
                       </p>
                     </div>
                     <ul className="flex mb-2">
@@ -280,7 +280,7 @@ export default function Home() {
                         <a
                           href="https://playdapp.com/"
                           target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
+                          className="text-[#108a00] font-medium py-1 mr-1 rounded"
                           rel="noreferrer"
                         >
                           https://playdapp.com
@@ -294,20 +294,17 @@ export default function Home() {
                     <div className="flex justify-between my-1">
                       <strong>Real Realm</strong>
                       <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">EtherJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Web3JS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
                       </p>
                     </div>
                     <ul className="flex mb-2">
                       <li>
-                        <a
-                          href="https://realrealm.io"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        >
+                        <a href="https://realrealm.io" className="text-[#108a00] font-medium py-1 mr-1 rounded">
                           https://realrealm.io
                         </a>
                       </li>
@@ -324,21 +321,18 @@ export default function Home() {
                     <div className="flex justify-between my-1">
                       <strong>F2 NFT</strong>
                       <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">NextJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">NextJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">EtherJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Web3JS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
                       </p>
                     </div>
                     <ul className="flex mb-2">
                       <li>
-                        <a
-                          href="https://app.f2nft.games "
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                        >
+                        <a href="https://app.f2nft.games " className="text-[#108a00] font-medium py-1 mr-1 rounded">
                           https://app.f2nft.games
                         </a>
                       </li>
@@ -404,15 +398,6 @@ export default function Home() {
               </ul>
             </div>
           </main>
-
-          <footer className="mt-6">
-            <p className="bg-gray-600 text-white text-center text-sm pt-2">
-              The best way to predict the future is to create it. <small>- AbrahamLincoln</small>
-            </p>
-            <p className="bg-gray-600 text-white text-center text-sm pb-2">
-              I am creating my future by learning new things and making small progresses everyday.
-            </p>
-          </footer>
         </div>
       </div>
     </>
