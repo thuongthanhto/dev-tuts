@@ -27,7 +27,7 @@ export default function Home() {
         }}
       />
       <div className="container mx-auto flex flex-col md:flex-row md:justify-center">
-        <div className="border border-gray-300 rounded-sm shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10">
+        <div className="border border-gray-300 shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10 bg-[#F0F0F0] rounded-md">
           <header>
             <ul className="flex flex-wrap justify-end gap-2">
               <li>
@@ -94,61 +94,6 @@ export default function Home() {
           </header>
 
           <main className="flex flex-col-reverse md:flex-row gap-x-10 mt-10">
-            <div className="md:w-2/6 mt-6 md:mt-0 flex flex-col">
-              <strong className="text-xl font-semibold border-b md:border-none">Contact Details</strong>
-              <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">
-                  <strong className="mr-1">Phone </strong>
-                  <a href="tel:+84986335807" className="block">
-                    +84 98 633 5807
-                  </a>
-                </li>
-                <li className="px-2 mt-1">
-                  <strong className="mr-1">E-mail </strong>
-                  <a href="mailto:thuongthanhto@gmail.com" className="block">
-                    thuongthanhto@gmail.com
-                  </a>
-                </li>
-                <li className="px-2 mt-1">
-                  <strong className="mr-1">Location</strong>
-                  <span className="block">Ho Chi Minh City, Vietnam</span>
-                </li>
-              </ul>
-
-              <strong className="text-xl font-semibold border-b md:border-none">Skills</strong>
-              <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">HTML</li>
-                <li className="px-2 mt-1">CSS</li>
-                <li className="px-2 mt-1">JavaScript, ES5, ES6</li>
-                <li className="px-2 mt-1">React, NextJS</li>
-                <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
-                <li className="px-2 mt-1">Node.js, NestJS, Graphql, ExpressJS</li>
-                <li className="px-2 mt-1">Postgres, MySql, Mongodb</li>
-                <li className="px-2 mt-1">Blockchain, Etherjs, Web3js</li>
-                <li className="px-2 mt-1">AWS</li>
-              </ul>
-              <strong className="text-xl font-semibold border-b md:border-none">Further Education</strong>
-              <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">Medium</li>
-                <li className="px-2 mt-1">Udemy</li>
-                <li className="px-2 mt-1">Linkedin Learning</li>
-              </ul>
-
-              <strong className="text-xl font-semibold border-b md:border-none">Currently learning</strong>
-              <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">DevOps and Atrchitech</li>
-                <li className="px-2 mt-1">User Experience</li>
-              </ul>
-              <strong className="text-xl font-semibold border-b md:border-none">Interests & Hobbies</strong>
-              <ul className="mt-2">
-                <li className="px-2 mt-1">Sustainability</li>
-                <li className="px-2 mt-1">New technologies</li>
-                <li className="px-2 mt-1">Blog</li>
-                <li className="px-2 mt-1">Investment</li>
-                <li className="px-2 mt-1">Travel</li>
-              </ul>
-            </div>
-
             <div className="w-full md:w-4/6">
               <section>
                 <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
@@ -428,6 +373,61 @@ export default function Home() {
                   </li>
                 </ul>
               </section>
+            </div>
+
+            <div className="md:w-2/6 mt-6 md:mt-0 flex flex-col bg-[#1a4b77] text-white px-3 py-4 rounded-md">
+              <strong className="text-xl font-semibold border-b md:border-none">Contact Details</strong>
+              <ul className="mt-2 mb-10">
+                <li className="px-2 mt-1">
+                  <strong className="mr-1">Phone </strong>
+                  <a href="tel:+84986335807" className="block">
+                    +84 98 633 5807
+                  </a>
+                </li>
+                <li className="px-2 mt-1">
+                  <strong className="mr-1">E-mail </strong>
+                  <a href="mailto:thuongthanhto@gmail.com" className="block">
+                    thuongthanhto@gmail.com
+                  </a>
+                </li>
+                <li className="px-2 mt-1">
+                  <strong className="mr-1">Location</strong>
+                  <span className="block">Ho Chi Minh City, Vietnam</span>
+                </li>
+              </ul>
+
+              <strong className="text-xl font-semibold border-b md:border-none">Skills</strong>
+              <ul className="mt-2 mb-10">
+                <li className="px-2 mt-1">HTML</li>
+                <li className="px-2 mt-1">CSS</li>
+                <li className="px-2 mt-1">JavaScript, ES5, ES6</li>
+                <li className="px-2 mt-1">React, NextJS</li>
+                <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
+                <li className="px-2 mt-1">Node.js, NestJS, Graphql, ExpressJS</li>
+                <li className="px-2 mt-1">Postgres, MySql, Mongodb</li>
+                <li className="px-2 mt-1">Blockchain, Etherjs, Web3js</li>
+                <li className="px-2 mt-1">AWS</li>
+              </ul>
+              <strong className="text-xl font-semibold border-b md:border-none">Further Education</strong>
+              <ul className="mt-2 mb-10">
+                <li className="px-2 mt-1">Medium</li>
+                <li className="px-2 mt-1">Udemy</li>
+                <li className="px-2 mt-1">Linkedin Learning</li>
+              </ul>
+
+              <strong className="text-xl font-semibold border-b md:border-none">Currently learning</strong>
+              <ul className="mt-2 mb-10">
+                <li className="px-2 mt-1">DevOps and Atrchitech</li>
+                <li className="px-2 mt-1">User Experience</li>
+              </ul>
+              <strong className="text-xl font-semibold border-b md:border-none">Interests & Hobbies</strong>
+              <ul className="mt-2">
+                <li className="px-2 mt-1">Sustainability</li>
+                <li className="px-2 mt-1">New technologies</li>
+                <li className="px-2 mt-1">Blog</li>
+                <li className="px-2 mt-1">Investment</li>
+                <li className="px-2 mt-1">Travel</li>
+              </ul>
             </div>
           </main>
 
