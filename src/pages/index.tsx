@@ -127,13 +127,19 @@ export default function Home() {
                       </div>
                       <div>10/2021-Now</div>
                     </div>
-                    <p className="text-justify text-sm">
-                      Development, and implementation of a Fintech Product to enable Vietnam customers to Buy Now, Pay
-                      Later services. Muadee by HDBank, One of the first BNPL products made by the Bank in Vietnam.
+
+                    <p className="text-sm mt-1">
+                      I am responsible for building the structure and source code for the team. This would have involved
+                      working closely with other developers and architects to ensure that the product was being made in
+                      a way that was scalable, maintainable, and easily extensible.
                     </p>
-                    <p className="text-sm">
-                      Develop new features flow UI/UX design, write unit test, review code, build structure source for
-                      team.
+                    <p className="text-sm mt-1">
+                      Overall, my experiences working on developing and implementing the Muadee BNPL product for HDBank
+                      would have been both challenging and rewarding. I would have had the opportunity to work on a
+                      cutting-edge Fintech product that was helping to revolutionize the way Vietnamese customers
+                      interact with their finances. My work would have directly impacted the product's success, and I
+                      would have had the satisfaction of knowing that I was making a real difference in the lives of
+                      customers.
                     </p>
                   </li>
 
@@ -154,10 +160,10 @@ export default function Home() {
                       <li className="text-sm">- Back Office website for manage.</li>
                     </ol>
                     <p className="text-justify text-sm mt-1">
-                      Overall, my experience working as a Senior Developer at Sendo allowed me to develop my technical
-                      skills in web development and user interface design. I also learned how to work with different
-                      APIs and integrate third-party systems into a website. This experience has allowed me to become a
-                      skilled developer capable of creating user-friendly and functional websites that meet the needs of
+                      With experience working as a Senior Developer at Sendo allowed me to develop my technical skills
+                      in web development and user interface design. I also learned how to work with different APIs and
+                      integrate third-party systems into a website. This experience has allowed me to become a skilled
+                      developer capable of creating user-friendly and functional websites that meet the needs of
                       businesses and their customers.
                     </p>
                   </li>
@@ -282,62 +288,6 @@ export default function Home() {
                       </li>
                     </ul>
                     <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
-                  </li>
-
-                  <li className="py-2">
-                    <div className="flex justify-between my-1">
-                      <strong>Fantasy NFT</strong>
-                      <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                      </p>
-                    </div>
-                    <ul className="flex mb-2">
-                      <li>
-                        <a
-                          href="https://fantasynft.org/"
-                          target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                          rel="noreferrer"
-                        >
-                          https://fantasynft.org
-                        </a>
-                      </li>
-                    </ul>
-                    <p className="text-sm">
-                      Fantasy NFT – Create, sell or collect digital items secured with #blockchain
-                    </p>
-                  </li>
-
-                  <li className="py-2">
-                    <div className="flex justify-between my-1">
-                      <strong>Fantasy Lottery</strong>
-                      <p className="hidden md:flex">
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">ReactJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">EtherJS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Web3JS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Redux Tookit</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">AWS</span>
-                        <span className="bg-gray-600 text-white px-2 py-1 ml-1 text-sm rounded">Blockchain</span>
-                      </p>
-                    </div>
-                    <ul className="flex mb-2">
-                      <li>
-                        <a
-                          href="https://fantasynft.org/"
-                          target="_blank"
-                          className="bg-blue-600 text-white px-2 py-1 mr-1 text-sm rounded"
-                          rel="noreferrer"
-                        >
-                          https://fantasylotterygame.com
-                        </a>
-                      </li>
-                    </ul>
-                    <p className="text-sm">Buy ticket and waiting for win in multiple chain </p>
                   </li>
 
                   <li className="py-2">
