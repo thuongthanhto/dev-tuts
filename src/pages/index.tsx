@@ -141,9 +141,24 @@ export default function Home() {
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Senior ReactJS Developer at Sendo</strong>03/2019-10/2021
                     </p>
-                    <p className="text-justify text-sm">
-                      Join a scrum team as member. Develop new features flow UI/UX design, write unit test, review code
-                      for junior member, build structure source for team.
+                    <p className="text-justify text-sm mb-1">
+                      As a Senior Developer at Sendo, I played a key role in developing and maintaining various features
+                      that helped improve the user experience of the website. Specifically, I worked on the following
+                      features:
+                    </p>
+                    <ol>
+                      <li className="text-sm">- Air Ticket Booking</li>
+                      <li className="text-sm">- Train Ticket Booking</li>
+                      <li className="text-sm">- Pay bill</li>
+                      <li className="text-sm">- Mobile Card Topup</li>
+                      <li className="text-sm">- Back Office website for manage.</li>
+                    </ol>
+                    <p className="text-justify text-sm mt-1">
+                      Overall, my experience working as a Senior Developer at Sendo allowed me to develop my technical
+                      skills in web development and user interface design. I also learned how to work with different
+                      APIs and integrate third-party systems into a website. This experience has allowed me to become a
+                      skilled developer capable of creating user-friendly and functional websites that meet the needs of
+                      businesses and their customers.
                     </p>
                   </li>
                   <li className="pt-2">
