@@ -6,4 +6,6 @@ Thiết kế một hệ thống mà nó hỗ trợ hàng triệu người dùng 
 
 ### **Tạo một server**
 
-Hành trình vạn dặm bắt đầu từ một bước chân đầu tiên, và việc xây dựng một hệ thống phức tạp cũng vậy. Bắt đầu với những thứ đơn giản, mọi thứ chạy trên một server.
+Hành trình vạn dặm bắt đầu từ một bước chân đầu tiên, và việc xây dựng một hệ thống phức tạp cũng vậy. Bắt đầu với những thứ đơn giản, mọi thứ chạy trên một server. Hình dưới đây hiển thị hình minh họa về thiết lập một máy chủ
+
+![figure1.1](https://thuongthanhto.com/figure1_1.png)
