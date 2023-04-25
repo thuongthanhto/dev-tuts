@@ -389,12 +389,22 @@ export default function Home() {
                 <li className="px-2 mt-1">User Experience</li>
               </ul>
               <strong className="text-xl font-semibold border-b md:border-none">Interests & Hobbies</strong>
-              <ul className="mt-2">
+              <ul className="mt-2 mb-10">
                 <li className="px-2 mt-1">Sustainability</li>
                 <li className="px-2 mt-1">New technologies</li>
                 <li className="px-2 mt-1">Blog</li>
                 <li className="px-2 mt-1">Investment</li>
                 <li className="px-2 mt-1">Travel</li>
+              </ul>
+
+              <strong className="text-xl font-semibold border-b md:border-none">References</strong>
+              <ul className="mt-2">
+                <li className="px-2 mt-1 font-bold">NGUYEN JEAN-BAPTISTE (HDBank)</li>
+                <li className="px-2 mt-1 text-slate-300">jb.nguyen@hdbank.com.vn</li>
+                <li className="px-2 mt-1 text-slate-300">+84 86 604 5911</li>
+                <li className="px-2 mt-4 font-bold">Ton Chung Y (Sendo)</li>
+                <li className="px-2 mt-1 text-slate-300">ytonchung@gmail.com</li>
+                <li className="px-2 mt-1 text-slate-300">+84 90 309 0918</li>
               </ul>
             </div>
           </main>
