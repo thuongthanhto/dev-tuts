@@ -19,9 +19,9 @@ export default function Home() {
             'I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a close team environment. I always apply a positive attitude to every task I undertake.',
           images: [
             {
-              url: '/og-image.jpg',
-              width: 800,
-              height: 420,
+              url: '/avatar.png',
+              width: 200,
+              height: 200,
               alt: 'Thuong To - ReactJS TeamLead',
             },
           ],
