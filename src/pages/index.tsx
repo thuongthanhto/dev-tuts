@@ -83,7 +83,7 @@ export default function Home() {
                 <Image src="/avatar.png" alt="Picture of the author" width={200} height={200} className="rounded" />
                 <div className="ml-5">
                   <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
-                  <p className="text-xl mt-1 md:mt-5">ReactJS Team Lead</p>
+                  <p className="text-xl mt-1 md:mt-5 ml-5">ReactJS Team Lead</p>
                 </div>
               </div>
 
