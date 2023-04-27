@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { NextSeo } from 'next-seo'
+import Image from 'next/image'
 
 /* eslint-disable react/no-unescaped-entities */
 export default function Home() {
@@ -78,6 +79,14 @@ export default function Home() {
               </li>
             </ul>
             <div className="flex justify-between items-center">
+              <div className="flex items-center">
+                <Image src="/avatar.png" alt="Picture of the author" width={200} height={200} className="rounded" />
+                <div className="ml-5">
+                  <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
+                  <p className="text-xl mt-1 md:mt-5">ReactJS Team Lead</p>
+                </div>
+              </div>
+
               <div>
                 {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
                         style="background-image: url(../bootstrap/dog.jpg)">
@@ -85,10 +94,6 @@ export default function Home() {
                 <Link href="/cv.pdf" className="text-blue-700">
                   Download PDF
                 </Link>
-              </div>
-              <div className="grid justify-items-end">
-                <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
-                <p className="text-xl mt-1 md:mt-5">ReactJS Team Lead</p>
               </div>
             </div>
           </header>
