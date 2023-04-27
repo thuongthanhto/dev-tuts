@@ -198,7 +198,13 @@ export default function Home() {
                       <strong className="text-base">University of Information Technology</strong>2013-2017
                     </p>
                     <p className="flex justify-between text-sm">
-                      Software Engineering<small>GPA 7.8/10</small>
+                      Software Engineering<small>GPA 8.2/10</small>
+                    </p>
+                  </li>
+                  <li className="pt-2">
+                    <p className="flex justify-between text-sm">
+                      <strong className="text-base">Toeic Certificate</strong>
+                      <span>Score: 745</span>
                     </p>
                   </li>
                 </ul>
@@ -386,6 +392,8 @@ export default function Home() {
                 <li className="px-2 mt-1">Medium</li>
                 <li className="px-2 mt-1">Udemy</li>
                 <li className="px-2 mt-1">Linkedin Learning</li>
+                <li className="px-2 mt-1">Coursera</li>
+                <li className="px-2 mt-1">Pluralsight</li>
               </ul>
 
               <strong className="text-xl font-semibold border-b md:border-none">Currently learning</strong>
