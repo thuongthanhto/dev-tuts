@@ -127,13 +127,23 @@ export default function Home() {
             <section>
               <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
               <p className="mt-4 text-sm">
-                - I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many
-                technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am
-                happy to work in a close team environment. I always apply a positive attitude to every task I undertake.
+                Over the past 6 years, I have been working as a ReactJS Developer, honing my skills in developing
+                complex web applications and user interfaces. I have a deep understanding of ReactJS frameworks such as
+                Redux, NextJS, and GatsbyJS, and I am proficient in using tools such as Git, JIRA, and Trello to manage
+                projects and collaborate with team members.
               </p>
-              <p className="text-sm">- I know Frontend, Backend, and DevOps</p>
+              <p className="text-sm mt-1">
+                My experience includes developing responsive websites, implementing RESTful APIs, integrating
+                third-party libraries, and optimizing web applications for performance. I have also worked with a wide
+                range of technologies such as HTML, CSS, JavaScript, and NodeJS to deliver high-quality web solutions to
+                clients across different industries.
+              </p>
 
-              <p className="text-sm">- I can research new technologies quickly and apply them to new projects.</p>
+              <p className="text-sm mt-1">
+                What sets me apart from other developers is my ability to work effectively in a team environment and my
+                commitment to delivering projects on time and within budget. I am a quick learner and I am always
+                willing to take on new challenges to expand my skillset.
+              </p>
             </section>
 
             <section>
