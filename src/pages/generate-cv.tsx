@@ -177,7 +177,7 @@ export default function Home() {
                 </li>
                 <li className="pt-2">
                   <p className="flex justify-between text-sm">
-                    <strong className="text-base">Fullstack Develop at FPT Software</strong>03/2017-02/2019
+                    <strong className="text-base">Fullstack Developer at FPT Software</strong>03/2017-02/2019
                   </p>
                   <p className="text-justify text-sm">
                     {`I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
