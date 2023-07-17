@@ -103,22 +103,22 @@ export default function Home() {
               <section>
                 <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
                 <p className="mt-4 text-sm">
-                  Over the past 6 years, I have been working as a ReactJS Developer, honing my skills in developing
-                  complex web applications and user interfaces. I have a deep understanding of ReactJS frameworks such
-                  as Redux, NextJS, and GatsbyJS, and I am proficient in using tools such as Git, JIRA, and Trello to
-                  manage projects and collaborate with team members.
+                  Over the past 6 years, I have worked with a wide range of technologies such as HTML, CSS, JavaScript,
+                  and NodeJS to deliver high-quality web solutions to clients across different industries. I have been
+                  working as a ReactJS Developer, honing my skills in developing complex web applications and user
+                  interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GatsbyJS, and
+                  I am proficient in using tools such as Git, JIRA, and Trello to manage projects and collaborate with
+                  team members.
                 </p>
                 <p className="text-sm mt-1">
                   My experience includes developing responsive websites, implementing RESTful APIs, integrating
-                  third-party libraries, and optimizing web applications for performance. I have also worked with a wide
-                  range of technologies such as HTML, CSS, JavaScript, and NodeJS to deliver high-quality web solutions
-                  to clients across different industries.
+                  third-party libraries, and optimizing web applications for performance.
                 </p>
 
                 <p className="text-sm mt-1">
                   What sets me apart from other developers is my ability to work effectively in a team environment and
                   my commitment to delivering projects on time and within budget. I am a quick learner and I am always
-                  willing to take on new challenges to expand my skillset.
+                  willing to take on new challenges to expand my skill set.
                 </p>
               </section>
 
@@ -130,7 +130,7 @@ export default function Home() {
                       <div>
                         <strong className="text-base">ReactJS Team Lead at HDBank</strong>
                       </div>
-                      <div>10/2021-Now</div>
+                      <div>October 2021 up to Present</div>
                     </div>
 
                     <p className="text-sm mt-1">
@@ -150,7 +150,7 @@ export default function Home() {
 
                   <li className="pt-2">
                     <p className="flex justify-between text-sm">
-                      <strong className="text-base">Senior ReactJS Developer at Sendo</strong>03/2019-10/2021
+                      <strong className="text-base">Senior ReactJS Developer at Sendo</strong>March 2019 to October 2021
                     </p>
                     <p className="text-justify text-sm mb-1">
                       As a Senior Developer at Sendo, I played a key role in developing and maintaining various features
@@ -174,18 +174,19 @@ export default function Home() {
                   </li>
                   <li className="pt-2">
                     <p className="flex justify-between text-sm">
-                      <strong className="text-base">Fullstack Developer at FPT Software</strong>03/2017-02/2019
+                      <strong className="text-base">Front-End Engineer at FPT Software</strong>March 2017 to February
+                      2019
                     </p>
-                    <p className="text-justify text-sm">
-                      {`I am a fullstack NodeJS and React developer. As a Front-End Engineer at FPT Software I'm handling
-                    complete front-end of the product.
-                  `}
-                    </p>
-                    <p className="text-sm">My responsibilities include: </p>
-                    <p className="text-sm">- Making the UI functional using React.JS.</p>
-                    <p className="text-sm">- Collaborate with the Backend Engineers.</p>
-                    <p className="text-sm">- Optimize the application for maximum speed and scalability.</p>
-                    <p className="text-sm">- Build reusable code.</p>
+                    <ul className="text-sm">
+                      <li>
+                        <strong>Coordinated</strong> and <strong>Handled</strong> complete front-end engineering of the
+                        product
+                      </li>
+                      <li>
+                        <strong>Performed</strong> as a full stack NodeJS and React developer
+                      </li>
+                      <li>Managed the responsibilities including:</li>
+                    </ul>
                   </li>
                 </ul>
               </section>
@@ -408,16 +409,6 @@ export default function Home() {
                 <li className="px-2 mt-1">Blog</li>
                 <li className="px-2 mt-1">Investment</li>
                 <li className="px-2 mt-1">Travel</li>
-              </ul>
-
-              <strong className="text-xl font-semibold border-b md:border-none">References</strong>
-              <ul className="mt-2">
-                <li className="px-2 mt-1 font-bold">NGUYEN JEAN-BAPTISTE (HDBank)</li>
-                <li className="px-2 mt-1 text-slate-300">jb.nguyen@hdbank.com.vn</li>
-                <li className="px-2 mt-1 text-slate-300">+84 86 604 5911</li>
-                <li className="px-2 mt-4 font-bold">Ton Chung Y (Sendo)</li>
-                <li className="px-2 mt-1 text-slate-300">ytonchung@gmail.com</li>
-                <li className="px-2 mt-1 text-slate-300">+84 90 309 0918</li>
               </ul>
             </div>
           </main>
