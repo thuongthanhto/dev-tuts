@@ -106,7 +106,7 @@ export default function Home() {
                   Over the past 6 years, I have worked with a wide range of technologies such as HTML, CSS, JavaScript,
                   and NodeJS to deliver high-quality web solutions to clients across different industries. I have been
                   working as a ReactJS Developer, honing my skills in developing complex web applications and user
-                  interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GatsbyJS, and
+                  interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GraphQL, and
                   I am proficient in using tools such as Git, JIRA, and Trello to manage projects and collaborate with
                   team members.
                 </p>
@@ -134,17 +134,15 @@ export default function Home() {
                     </div>
 
                     <p className="text-sm mt-1">
-                      I am responsible for building the structure and source code for the team. This would have involved
-                      working closely with other developers and architects to ensure that the product was being made in
-                      a way that was scalable, maintainable, and easily extensible.
+                      - <strong>Responsible</strong> for building the structure and source code for the team.
                     </p>
                     <p className="text-sm mt-1">
-                      Overall, my experiences working on developing and implementing the Muadee BNPL product for HDBank
-                      would have been both challenging and rewarding. I would have had the opportunity to work on a
-                      cutting-edge Fintech product that was helping to revolutionize the way Vietnamese customers
-                      interact with their finances. My work would have directly impacted the product's success, and I
-                      would have had the satisfaction of knowing that I was making a real difference in the lives of
-                      customers.
+                      - <strong>Ensures</strong> that the product was being made as scalable, maintainable, and easily
+                      extensible.
+                    </p>
+                    <p className="text-sm mt-1">
+                      - <strong>Develops</strong> and implements the Muadee BNPL product for HDBank and works on a
+                      cutting-edge Fintech products
                     </p>
                   </li>
 
@@ -152,41 +150,49 @@ export default function Home() {
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Senior ReactJS Developer at Sendo</strong>March 2019 to October 2021
                     </p>
-                    <p className="text-justify text-sm mb-1">
-                      As a Senior Developer at Sendo, I played a key role in developing and maintaining various features
-                      that helped improve the user experience of the website. Specifically, I worked on the following
-                      features:
-                    </p>
-                    <ol>
-                      <li className="text-sm">- Air Ticket Booking</li>
-                      <li className="text-sm">- Train Ticket Booking</li>
-                      <li className="text-sm">- Pay bill</li>
-                      <li className="text-sm">- Mobile Card Topup</li>
-                      <li className="text-sm">- Back Office website for manage.</li>
-                    </ol>
-                    <p className="text-justify text-sm mt-1">
-                      With experience working as a Senior Developer at Sendo allowed me to develop my technical skills
-                      in web development and user interface design. I also learned how to work with different APIs and
-                      integrate third-party systems into a website. This experience has allowed me to become a skilled
-                      developer capable of creating user-friendly and functional websites that meet the needs of
-                      businesses and their customers.
-                    </p>
+                    <dl className="text-sm">
+                      <dd>
+                        - <strong>Developed</strong> and <strong>maintained</strong> various features that helped
+                        improve the user experience of the website. I specially worked on the features for:
+                        <ul className="ml-8 list-disc">
+                          <li>Air ticket booking</li>
+                          <li>Train ticket booking.</li>
+                          <li>Pay & bill</li>
+                          <li>Mobile card top up</li>
+                          <li>Back office website management</li>
+                        </ul>
+                      </dd>
+                      <dd>
+                        - <strong>Performed</strong> web development and user interface design.
+                      </dd>
+                      <dd>
+                        - <strong>Coordinated</strong> and <strong>Handled</strong> with different APIs and integrate
+                        third-party systems into the website.{' '}
+                      </dd>
+                    </dl>
                   </li>
                   <li className="pt-2">
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Front-End Engineer at FPT Software</strong>March 2017 to February
                       2019
                     </p>
-                    <ul className="text-sm">
-                      <li>
-                        <strong>Coordinated</strong> and <strong>Handled</strong> complete front-end engineering of the
-                        product
-                      </li>
-                      <li>
-                        <strong>Performed</strong> as a full stack NodeJS and React developer
-                      </li>
-                      <li>Managed the responsibilities including:</li>
-                    </ul>
+                    <dl className="text-sm">
+                      <dd>
+                        - <strong>Coordinated</strong> and <strong>Handled</strong> complete front-end engineering of
+                        the product
+                      </dd>
+                      <dd>
+                        - <strong>Performed</strong> as a full stack NodeJS and React developer
+                      </dd>
+                      <dd>
+                        - <strong>Managed</strong> the responsibilities including:
+                        <ul className="ml-8 list-disc">
+                          <li>Creation of the UI functionalities using React.JS.</li>
+                          <li>Collaboration with the Backend Engineers.</li>
+                          <li>Optimization of the web application for maximum speed and scalability.</li>
+                        </ul>
+                      </dd>
+                    </dl>
                   </li>
                 </ul>
               </section>
@@ -196,16 +202,16 @@ export default function Home() {
                 <ul className="mt-2">
                   <li className="pt-2">
                     <p className="flex justify-between text-sm">
-                      <strong className="text-base">University of Information Technology</strong>2013-2017
+                      <strong className="text-base">University of Information Technology (2013-2017)</strong>
                     </p>
                     <p className="flex justify-between text-sm">
-                      Software Engineering<small>GPA 8.2/10</small>
+                      Software Engineering<strong>GPA 8.2/10</strong>
                     </p>
                   </li>
-                  <li className="pt-2">
+                  <li className="pt-2 border-t mt-3">
                     <p className="flex justify-between text-sm">
-                      <strong className="text-base">Toeic Certificate</strong>
-                      <span>Score: 745</span>
+                      <strong className="text-base">TOEIC Certification (May 2022)</strong>
+                      <strong>Score: 745</strong>
                     </p>
                   </li>
                 </ul>
