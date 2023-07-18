@@ -185,7 +185,7 @@ export default function Home() {
                   `}
                   </p>
                   <p className="text-sm">My responsibilities include: </p>
-                  <p className="text-sm">- Making the UI functional using React.JS.</p>
+                  <p className="text-sm">- Making the UI functional using ReactJS.</p>
                   <p className="text-sm">- Collaborate with the Backend Engineers.</p>
                   <p className="text-sm">- Optimize the application for maximum speed and scalability.</p>
                   <p className="text-sm">- Build reusable code.</p>
@@ -304,7 +304,7 @@ export default function Home() {
                     <span className="bg-gray-600 text-black pr-1 py-1 text-sm rounded">Blockchain</span>
                   </p>
 
-                  <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
+                  <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem. </p>
                 </li>
 
                 <li className="py-2">

@@ -187,7 +187,7 @@ export default function Home() {
                       <dd>
                         - <strong>Managed</strong> the responsibilities including:
                         <ul className="ml-8 list-disc">
-                          <li>Creation of the UI functionalities using React.JS.</li>
+                          <li>Creation of the UI functionalities using ReactJS.</li>
                           <li>Collaboration with the Backend Engineers.</li>
                           <li>Optimization of the web application for maximum speed and scalability.</li>
                         </ul>
@@ -312,7 +312,7 @@ export default function Home() {
                         </a>
                       </li>
                     </ul>
-                    <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem</p>
+                    <p className="text-sm">PlayDapp From dApp to Blockchain-Powered Gaming Entertainment Ecosystem. </p>
                   </li>
 
                   <li className="py-2">
