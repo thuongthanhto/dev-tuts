@@ -125,7 +125,7 @@ export default function Home() {
               <section>
                 <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Work Experiences</h2>
                 <ul className="mt-2">
-                  <li className="pt-2">
+                  <li className="pt-3">
                     <div className="flex justify-between items-center text-sm">
                       <div>
                         <strong className="text-base">ReactJS Team Lead at HDBank</strong>
@@ -146,7 +146,7 @@ export default function Home() {
                     </p>
                   </li>
 
-                  <li className="pt-2">
+                  <li className="pt-4">
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Senior ReactJS Developer at Sendo</strong>March 2019 to October 2021
                     </p>
@@ -171,7 +171,7 @@ export default function Home() {
                       </dd>
                     </dl>
                   </li>
-                  <li className="pt-2">
+                  <li className="pt-4">
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Front-End Engineer at FPT Software</strong>March 2017 to February
                       2019
@@ -182,7 +182,7 @@ export default function Home() {
                         the product
                       </dd>
                       <dd>
-                        - <strong>Performed</strong> as a full stack NodeJS and React developer
+                        - <strong>Performed</strong> as a React Developer
                       </dd>
                       <dd>
                         - <strong>Managed</strong> the responsibilities including:
@@ -220,7 +220,35 @@ export default function Home() {
               <section>
                 <h2 className="text-2xl mt-6 pb-1 border-b font-semibold">Projects</h2>
 
+                <h3 className="underline font-bold mt-5 uppercase italic">Corporate Projects:</h3>
+
                 <ul className="mt-1">
+                  <li className="py-2">
+                    <div className="flex justify-between my-1">
+                      <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
+                      <p className="hidden md:flex">
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">React</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                      </p>
+                    </div>
+                    <ul className="flex mb-2">
+                      <li>
+                        <a
+                          href="https://muadee.com.vn/"
+                          target="_blank"
+                          className="text-[#108a00] font-medium py-1 mr-1 rounded"
+                          rel="noreferrer"
+                        >
+                          https://muadee.com.vn
+                        </a>
+                      </li>
+                    </ul>
+                    <p className="text-sm">
+                      Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
+                      the first "Make in Bank" application in Vietnam.
+                    </p>
+                  </li>
                   <li className="py-2">
                     <div className="flex justify-between my-1">
                       <strong>Sendo</strong>
@@ -255,32 +283,11 @@ export default function Home() {
                       </ul>
                     </div>
                   </li>
-                  <li className="py-2">
-                    <div className="flex justify-between my-1">
-                      <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
-                      <p className="hidden md:flex">
-                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">React</span>
-                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
-                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
-                      </p>
-                    </div>
-                    <ul className="flex mb-2">
-                      <li>
-                        <a
-                          href="https://muadee.com.vn/"
-                          target="_blank"
-                          className="text-[#108a00] font-medium py-1 mr-1 rounded"
-                          rel="noreferrer"
-                        >
-                          https://muadee.com.vn
-                        </a>
-                      </li>
-                    </ul>
-                    <p className="text-sm">
-                      Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
-                      the first "Make in Bank" application in Vietnam.
-                    </p>
-                  </li>
+                </ul>
+
+                <h3 className="underline font-bold uppercase mt-5 italic">Freelance Projects:</h3>
+
+                <ul className="mt-1">
                   <li className="py-2">
                     <div className="flex justify-between my-1">
                       <strong>PlayDapp</strong>
@@ -320,13 +327,7 @@ export default function Home() {
                         <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
                       </p>
                     </div>
-                    <ul className="flex mb-2">
-                      <li>
-                        <a href="https://realrealm.io" className="text-[#108a00] font-medium py-1 mr-1 rounded">
-                          https://realrealm.io
-                        </a>
-                      </li>
-                    </ul>
+
                     <p className="text-sm">
                       Real Realm is a war strategy game with millions users. Acknowledging the enormous potential in the
                       world of blockchain, Real Realm is now integrated and enhanced, aiming to be an innovative
@@ -350,12 +351,63 @@ export default function Home() {
                     </div>
                     <ul className="flex mb-2">
                       <li>
-                        <a href="https://app.f2nft.games " className="text-[#108a00] font-medium py-1 mr-1 rounded">
+                        <a href="https://app.f2nft.games" className="text-[#108a00] font-medium py-1 mr-1 rounded">
                           https://app.f2nft.games
                         </a>
                       </li>
                     </ul>
                     <p className="text-sm">F2 NFT is a game NFT with F2C token and Stake feature. </p>
+                  </li>
+
+                  <li className="py-2">
+                    <div className="flex justify-between my-1">
+                      <strong>Alita Finance</strong>
+                      <p className="hidden md:flex">
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">EtherJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Web3JS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
+                      </p>
+                    </div>
+                    <ul className="flex mb-2">
+                      <li>
+                        <a href="https://app.alita.finance/#/" className="text-[#108a00] font-medium py-1 mr-1 rounded">
+                          https://app.alita.finance/#/
+                        </a>
+                      </li>
+                    </ul>
+                    <p className="text-sm">
+                      Alita Finance - Connecting Centralized And Decentralized Trading Platforms Worldwide{' '}
+                    </p>
+                    <p className="text-sm">
+                      Trade and Earn on the most effective Decentralized Exchange and Yield Farming platform
+                    </p>
+                  </li>
+
+                  <li className="py-2">
+                    <div className="flex justify-between my-1">
+                      <strong>Etermon</strong>
+                      <p className="hidden md:flex">
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">ReactJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">EtherJS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Web3JS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">AWS</span>
+                        <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Blockchain</span>
+                      </p>
+                    </div>
+                    <ul className="flex mb-2">
+                      <li>
+                        <a href="https://etermon.io/" className="text-[#108a00] font-medium py-1 mr-1 rounded">
+                          https://etermon.io/
+                        </a>
+                      </li>
+                    </ul>
+                    <p className="text-sm">
+                      Etermon is an NFT Game, a diverse monster world where you can PLAY, RELAX and EARN
+                    </p>
                   </li>
                 </ul>
               </section>
