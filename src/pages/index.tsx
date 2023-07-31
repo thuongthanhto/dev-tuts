@@ -88,9 +88,6 @@ export default function Home() {
               </div>
 
               <div>
-                {/* <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"
-                        style="background-image: url(../bootstrap/dog.jpg)">
-                    </div> */}
                 <Link href="/cv.pdf" className="text-blue-700">
                   Download PDF
                 </Link>
@@ -103,7 +100,7 @@ export default function Home() {
               <section>
                 <h2 className="text-2xl pb-1 border-b font-semibold">About</h2>
                 <p className="mt-4 text-sm">
-                  Over the past 6 years, I have worked with a wide range of technologies such as HTML, CSS, JavaScript,
+                  Over the past 7 years, I have worked with a wide range of technologies such as HTML, CSS, JavaScript,
                   and NodeJS to deliver high-quality web solutions to clients across different industries. I have been
                   working as a ReactJS Developer, honing my skills in developing complex web applications and user
                   interfaces. I have a deep understanding of ReactJS frameworks such as Redux, NextJS, and GraphQL, and
@@ -228,7 +225,11 @@ export default function Home() {
                 <ul className="mt-1">
                   <li className="py-2">
                     <div className="flex justify-between my-1">
-                      <strong>Muadee Webapp (Admin Portal and Merchant Portal)</strong>
+                      <div>
+                        <div><strong>Muadee Websites </strong></div>
+                        <div className="text-sm italic">(LandingPage, Admin Portal, Merchant Portal and Payment Gateway)</div>
+                      </div>
+
                       <p className="hidden md:flex">
                         <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">React</span>
                         <span className="bg-[#E4EBE4] px-2 py-1 ml-1 text-sm rounded-lg">Redux Tookit</span>
@@ -274,15 +275,15 @@ export default function Home() {
                       </li>
                     </ul>
                     <div className="text-sm">
-                      <ul>
+                      <ul className="list-disc ml-3">
                         <li>
-                          - Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards
+                          Buy train/airplane tickets, pay bills online, recharge phones, buy game card scratch cards
                           quickly at Sendo.vn
                         </li>
-                        <li>- Convenient payment</li>
-                        <li>- Safe</li>
-                        <li>- Secure by bank account</li>
-                        <li>- Credit card or Senpay e-wallet</li>
+                        <li>Convenient payment</li>
+                        <li>Safe</li>
+                        <li>Secure by bank account</li>
+                        <li>Credit card or Senpay e-wallet</li>
                       </ul>
                     </div>
                   </li>
@@ -421,46 +422,56 @@ export default function Home() {
               <ul className="mt-2 mb-10">
                 <li className="px-2 mt-1">
                   <strong className="mr-1">Phone </strong>
-                  <a href="tel:+84986335807" className="block">
+                  <a href="tel:+84986335807" className="block ml-1 hover:underline italic">
                     +84 98 633 5807
                   </a>
                 </li>
                 <li className="px-2 mt-1">
                   <strong className="mr-1">E-mail </strong>
-                  <a href="mailto:thuongthanhto@gmail.com" className="block">
+                  <a href="mailto:thuongthanhto@gmail.com" className="block ml-1 hover:underline italic">
                     thuongthanhto@gmail.com
                   </a>
                 </li>
                 <li className="px-2 mt-1">
                   <strong className="mr-1">Location</strong>
-                  <span className="block">Ho Chi Minh City, Vietnam</span>
+                  <span className="block ml-1 italic">Ho Chi Minh City, Vietnam</span>
                 </li>
               </ul>
 
               <strong className="text-xl font-semibold border-b md:border-none">Skills</strong>
-              <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">HTML</li>
-                <li className="px-2 mt-1">CSS</li>
-                <li className="px-2 mt-1">JavaScript, ES5, ES6</li>
-                <li className="px-2 mt-1">React, NextJS</li>
-                <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
-                <li className="px-2 mt-1">Node.js, NestJS, Graphql, ExpressJS</li>
-                <li className="px-2 mt-1">Postgres, MySql, Mongodb</li>
-                <li className="px-2 mt-1">Blockchain, Etherjs, Web3js</li>
-                <li className="px-2 mt-1">AWS</li>
-              </ul>
+
+              <div className="ml-1 mb-10">
+                <div className="font-semibold mt-1">Frontend</div>
+                <ul className="mt-2 italic">
+                  <li className="px-2 mt-1">HTML5</li>
+                  <li className="px-2 mt-1">CSS3, TailwindCSS</li>
+                  <li className="px-2 mt-1">JavaScript, ES5, ES6</li>
+                  <li className="px-2 mt-1">React, NextJS</li>
+                  <li className="px-2 mt-1">Redux Toolkit, Thunk, Saga</li>
+                  <li className="px-2 mt-1">Blockchain, EtherJS, Web3JS</li>
+                </ul>
+                <div className="font-semibold mt-2">Backend</div>
+                <ul className="mt-2 italic">
+                  <li className="px-2 mt-1">NodeJS, NestJS, GraphQL, ExpressJS</li>
+                  <li className="px-2 mt-1">Postgres, MySql, MongoDB</li>
+                </ul>
+                <div className="font-semibold mt-2">Devops</div>
+                <ul className="mt-2 italic">
+                  <li className="px-2 mt-1">AWS</li>
+                  <li className="px-2 mt-1">Vercel, Heroku</li>
+                </ul>
+              </div>
+
               <strong className="text-xl font-semibold border-b md:border-none">Further Education</strong>
               <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">Medium</li>
                 <li className="px-2 mt-1">Udemy</li>
-                <li className="px-2 mt-1">Linkedin Learning</li>
                 <li className="px-2 mt-1">Coursera</li>
                 <li className="px-2 mt-1">Pluralsight</li>
               </ul>
 
               <strong className="text-xl font-semibold border-b md:border-none">Currently learning</strong>
               <ul className="mt-2 mb-10">
-                <li className="px-2 mt-1">DevOps and Atrchitech</li>
+                <li className="px-2 mt-1">Solution Architect and DevOps</li>
                 <li className="px-2 mt-1">User Experience</li>
               </ul>
               <strong className="text-xl font-semibold border-b md:border-none">Interests & Hobbies</strong>
