@@ -152,49 +152,50 @@ export default function Home() {
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Senior ReactJS Developer at Sendo</strong>March 2019 to October 2021
                     </p>
-                    <dl className="text-sm">
-                      <dd>
-                        - <strong>Developed</strong> and <strong>maintained</strong> various features that helped
-                        improve the user experience of the website. I specially worked on the features for:
-                        <ul className="ml-8 list-disc">
-                          <li>Air ticket booking</li>
-                          <li>Train ticket booking.</li>
-                          <li>Pay & bill</li>
-                          <li>Mobile card top up</li>
-                          <li>Back office website management</li>
+
+                    <ul className="ml-4 list-disc">
+                      <li className="text-sm mt-1">
+                        <strong>Developed</strong> and <strong>maintained</strong> various features that helped improve
+                        the user experience of the website. I specially worked on the features for:
+                        <ul className="ml-1">
+                          <li>- Air ticket booking</li>
+                          <li>- Train ticket booking.</li>
+                          <li>- Pay & bill</li>
+                          <li>- Mobile card top up</li>
+                          <li>- Back office website management</li>
                         </ul>
-                      </dd>
-                      <dd>
-                        - <strong>Performed</strong> web development and user interface design.
-                      </dd>
-                      <dd>
-                        - <strong>Coordinated</strong> and <strong>Handled</strong> with different APIs and integrate
-                        third-party systems into the website.{' '}
-                      </dd>
-                    </dl>
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Performed</strong> web development and user interface design.
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Coordinated</strong> and <strong>Handled</strong> with different APIs and integrate
+                        third-party systems into the website.
+                      </li>
+                    </ul>
                   </li>
                   <li className="pt-4">
                     <p className="flex justify-between text-sm">
                       <strong className="text-base">Front-End Engineer at FPT Software</strong>March 2017 to February
                       2019
                     </p>
-                    <dl className="text-sm">
-                      <dd>
-                        - <strong>Coordinated</strong> and <strong>Handled</strong> complete front-end engineering of
-                        the product
-                      </dd>
-                      <dd>
-                        - <strong>Performed</strong> as a React Developer
-                      </dd>
-                      <dd>
-                        - <strong>Managed</strong> the responsibilities including:
-                        <ul className="ml-8 list-disc">
-                          <li>Creation of the UI functionalities using ReactJS.</li>
-                          <li>Collaboration with the Backend Engineers.</li>
-                          <li>Optimization of the web application for maximum speed and scalability.</li>
+                    <ul className="ml-4 list-disc">
+                      <li className="text-sm mt-1">
+                        <strong>Coordinated</strong> and <strong>Handled</strong> complete front-end engineering of the
+                        product
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Performed</strong> as a React Developer
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Managed</strong> the responsibilities including:
+                        <ul className="ml-1">
+                          <li>- Creation of the UI functionalities using ReactJS.</li>
+                          <li>- Collaboration with the Backend Engineers.</li>
+                          <li>- Optimization of the web application for maximum speed and scalability.</li>
                         </ul>
-                      </dd>
-                    </dl>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </section>
