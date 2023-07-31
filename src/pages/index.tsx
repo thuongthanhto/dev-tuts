@@ -133,17 +133,19 @@ export default function Home() {
                       <div>October 2021 up to Present</div>
                     </div>
 
-                    <p className="text-sm mt-1">
-                      - <strong>Responsible</strong> for building the structure and source code for the team.
-                    </p>
-                    <p className="text-sm mt-1">
-                      - <strong>Ensures</strong> that the product was being made as scalable, maintainable, and easily
-                      extensible.
-                    </p>
-                    <p className="text-sm mt-1">
-                      - <strong>Develops</strong> and implements the Muadee BNPL product for HDBank and works on a
-                      cutting-edge Fintech products
-                    </p>
+                    <ul className="ml-4 list-disc">
+                      <li className="text-sm mt-1">
+                        <strong>Responsible</strong> for building the structure and source code for the team.
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Ensures</strong> that the product was being made as scalable, maintainable, and easily
+                        extensible.
+                      </li>
+                      <li className="text-sm mt-1">
+                        <strong>Develops</strong> and implements the Muadee BNPL product for HDBank and works on a
+                        cutting-edge Fintech products
+                      </li>
+                    </ul>
                   </li>
 
                   <li className="pt-4">
