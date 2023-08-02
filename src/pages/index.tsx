@@ -83,11 +83,14 @@ export default function Home() {
                 <Image src="/avatar.png" alt="Picture of the author" width={200} height={200} className="rounded" />
                 <div className="ml-5">
                   <h1 className="text-4xl md:text-7xl font-extrabold mt-1">Thuong To</h1>
-                  <p className="text-xl mt-1 md:mt-5 ml-5">ReactJS Team Lead</p>
+                  <p className="text-xl mt-1 md:mt-5 sm:ml-5">ReactJS Team Lead</p>
+                  <Link href="/cv.pdf" className="text-blue-700 block sm:hidden">
+                    Download PDF
+                  </Link>
                 </div>
               </div>
 
-              <div>
+              <div className="hidden sm:block">
                 <Link href="/cv.pdf" className="text-blue-700">
                   Download PDF
                 </Link>
