@@ -10,13 +10,12 @@ export default function Home() {
         title="Thuong To - ReactJS TeamLead"
         titleTemplate="Thuong To - ReactJS TeamLead"
         defaultTitle="Thuong To - ReactJS TeamLead"
-        description="I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a close team environment. I always apply a positive attitude to every task I undertake."
+        description="I am a Senior Frontend Blockchain with over 7 years of frontend and Web3 experience."
         canonical="https://thuongthanhto.com/"
         openGraph={{
           url: 'https://thuongthanhto.com/',
           title: 'Thuong To - ReactJS TeamLead',
-          description:
-            'I have more than 6 years of experience in ReactJS and 4 years in Blockchain and work on many technologies. I always aspire to discover new knowledge. I can adapt quickly to new technology. I am happy to work in a close team environment. I always apply a positive attitude to every task I undertake.',
+          description: 'I am a Senior Frontend Blockchain with over 7 years of frontend and Web3 experience.',
           images: [
             {
               url: '/avatar.png',
@@ -229,8 +228,12 @@ export default function Home() {
                   <li className="py-2">
                     <div className="flex justify-between my-1">
                       <div>
-                        <div><strong>Muadee Websites </strong></div>
-                        <div className="text-sm italic">(LandingPage, Admin Portal, Merchant Portal and Payment Gateway)</div>
+                        <div>
+                          <strong>Muadee Websites </strong>
+                        </div>
+                        <div className="text-sm italic">
+                          (LandingPage, Admin Portal, Merchant Portal and Payment Gateway)
+                        </div>
                       </div>
 
                       <p className="hidden md:flex">
