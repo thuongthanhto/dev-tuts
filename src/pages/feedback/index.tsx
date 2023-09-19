@@ -1,4 +1,3 @@
-import { fs } from 'fs/promises'
 import { buildFeedbackPath, extractFeedback } from 'pages/api/feedback/feedback'
 import { Fragment, useState } from 'react'
 

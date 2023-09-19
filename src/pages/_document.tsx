@@ -8,6 +8,7 @@ export default function Document() {
         <div id="overlays" />
         <Main />
         <NextScript />
+        <div id="notifications"></div>
       </body>
     </Html>
   )

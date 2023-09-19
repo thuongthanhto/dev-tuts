@@ -4,11 +4,11 @@ import classes from './new-comment.module.css';
 function NewComment(props: any) {
   const [isInvalid, setIsInvalid] = useState(false);
 
-  const emailInputRef = useRef();
-  const nameInputRef = useRef();
-  const commentInputRef = useRef();
+  const emailInputRef = useRef<any>();
+  const nameInputRef = useRef<any>();
+  const commentInputRef = useRef<any>();
 
-  function sendCommentHandler(event) {
+  function sendCommentHandler(event: any) {
     event.preventDefault();
 
     const enteredEmail = emailInputRef.current.value;
@@ -49,7 +49,7 @@ function NewComment(props: any) {
       </div>
       <div className={classes.control}>
         <label htmlFor='comment'>Your comment</label>
-        <textarea id='comment' rows='5' ref={commentInputRef}></textarea>
+        <textarea id='comment' rows={5} ref={commentInputRef}></textarea>
       </div>
       {isInvalid && <p>Please enter a valid email address and comment!</p>}
       <button className={classes.btn}>Submit</button>

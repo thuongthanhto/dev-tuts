@@ -31,7 +31,7 @@ async function handler(req: any, res: any) {
       return;
     }
 
-    const newComment = {
+    const newComment: any = {
       email,
       name,
       text,
