@@ -1,10 +1,32 @@
 import Link from 'next/link'
+import { NextSeo } from 'next-seo'
 import Image from 'next/image'
 import Layout from 'components/Layout'
 
-const HomePage = () => {
+/* eslint-disable react/no-unescaped-entities */
+export default function Home() {
   return (
     <Layout>
+      <NextSeo
+        title="Thuong To - ReactJS TeamLead"
+        titleTemplate="Thuong To - ReactJS TeamLead"
+        defaultTitle="Thuong To - ReactJS TeamLead"
+        description="I am a Senior Frontend Blockchain with over 7 years of frontend and Web3 experience."
+        canonical="https://thuongthanhto.com/"
+        openGraph={{
+          url: 'https://thuongthanhto.com/',
+          title: 'Thuong To - ReactJS TeamLead',
+          description: 'I am a Senior Frontend Blockchain with over 7 years of frontend and Web3 experience.',
+          images: [
+            {
+              url: '/avatar.png',
+              width: 200,
+              height: 200,
+              alt: 'Thuong To - ReactJS TeamLead',
+            },
+          ],
+        }}
+      />
       <div className="container mx-auto flex flex-col md:flex-row md:justify-center mt-[42px]">
         <div className="border border-gray-300 shadow-lg p-4 md:p-10 md:w-4/5 mt-10 mb-10 bg-[#F7FAF7] rounded-md">
           <header>
@@ -474,5 +496,3 @@ const HomePage = () => {
     </Layout>
   )
 }
-
-export default HomePage

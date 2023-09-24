@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './_variables.css';
+
+body {
+  @apply bg-gray-100;
+}
