@@ -234,8 +234,8 @@ const HomePage = () => {
                       </li>
                     </ul>
                     <p className="text-sm">
-                      Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
-                      the first "Make in Bank" application in Vietnam.
+                      {`Buy now, pay in installments. no need to worry about fees. Split bills and pay in 3-4 months with
+                      the first "Make in Bank" application in Vietnam.`}
                     </p>
                   </li>
                   <li className="py-2">
