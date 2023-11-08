@@ -16,7 +16,7 @@ const RecentlyList = () => {
       <div className="mt-[16px] space-y-2">
         {fakePosts.map((post) => (
           <div key={post.title}>
-            <div className="font-bold text-[#242424] mb-[2px]">{post.title}</div>
+            <div className="font-bold text-[#242424] mb-[2px] max-h-[72px] text-ellipsis">{post.title}</div>
             <div className="text-[#6B6B6B] text-[13px]">{post.createdAt}</div>
           </div>
         ))}
