@@ -3,16 +3,17 @@ import { Fragment } from 'react'
 
 import { getPostData, getPostsFiles } from 'lib/posts-util'
 import PostContent from 'components/blogs/posts/post-detail/post-content'
+import Layout from 'components/Layout'
 
 function PostDetailPage(props: any) {
   return (
-    <Fragment>
+    <Layout>
       <Head>
         <title>{props.post.title}</title>
         <meta name="description" content={props.post.excerpt} />
       </Head>
       <PostContent post={props.post} />
-    </Fragment>
+    </Layout>
   )
 }
 
